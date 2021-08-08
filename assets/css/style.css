@@ -1,0 +1,33 @@
+
+body{
+    font-family: sans-serif;
+    padding-left: 1em;
+    width: 40%;
+    line-height: 1.42;
+}
+
+ol{
+    list-style-position:initial;
+}
+
+ol>li{
+    margin: 1em 0;
+}
+a{
+    color: #0000EE;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+nav > a{
+    margin-right: .7em;
+}
+
+@media (max-width:1000px) {
+    body{
+        width: -webkit-fill-available;
+    }
+}
