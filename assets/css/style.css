@@ -54,3 +54,9 @@ nav > a{
         width: -webkit-fill-available;
     }
 }
+
+.project_item{
+padding-left: 1em;
+border-left: 3px solid #eee;
+margin-bottom: 1em;
+}
